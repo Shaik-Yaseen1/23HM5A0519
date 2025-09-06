@@ -108,9 +108,6 @@ src/
 - Bulk URL shortening
 - API endpoints for programmatic access
 
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ## 🤝 Contributing
 
@@ -123,3 +120,4 @@ If you encounter any issues or have questions, please open an issue in the repos
 ---
 
 **Built with ❤️ using React**
+
