@@ -1,0 +1,16 @@
+:root{
+  --bg:#f7fafc; --card:#ffffff; --muted:#6b7280; --accent:#2563eb;
+}
+body { font-family: Inter, system-ui, Arial; margin:0; background:var(--bg); color:#111827; }
+.app { max-width:900px; margin:40px auto; padding:20px; }
+.header h1 { margin:0; font-size:28px; }
+.card { background:var(--card); padding:16px; border-radius:10px; box-shadow: 0 6px 18px rgba(16,24,40,0.06); margin-bottom:16px; }
+.shorten-form { display:flex; gap:8px; }
+.shorten-form input { flex:1; padding:10px; border-radius:8px; border:1px solid #e5e7eb; }
+.shorten-form button { padding:10px 14px; border-radius:8px; border:none; background:var(--accent); color:white; cursor:pointer; }
+.list ul { list-style:none; padding:0; margin:0; }
+.list-item { display:flex; justify-content:space-between; gap:12px; padding:12px 0; border-bottom:1px solid #f3f4f6; }
+.list-item .original { color:var(--muted); font-size:12px; max-width:540px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.actions button { margin-left:6px; padding:6px 8px; border-radius:6px; border:1px solid #e6e7eb; background:white; cursor:pointer; }
+.empty { padding:12px; color:var(--muted); }
+.footer { margin-top:24px; text-align:center; color:var(--muted); }
